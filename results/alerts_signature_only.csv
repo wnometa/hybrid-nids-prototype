@@ -1,0 +1,6 @@
+category,detail,dst_ip,dst_port,flow_id,ground_truth_attack_type,ground_truth_label,rule,severity,src_ip,timestamp
+sql_injection,payload matched known SQLi pattern: 'admin'--',10.20.0.10,443,9f143bf0,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:20
+sql_injection,payload matched known SQLi pattern: 'OR 1=1',10.20.0.10,443,c8f9619d,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:24
+sql_injection,payload matched known SQLi pattern: 'UNION SELECT',10.20.0.10,443,e66326b7,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:28
+sql_injection,payload matched known SQLi pattern: '' OR '1'='1',10.20.0.10,443,2e89c688,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:32
+sql_injection,payload matched known SQLi pattern: 'OR 1=1',10.20.0.10,443,f4b6deaa,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:36

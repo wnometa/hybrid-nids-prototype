@@ -1,0 +1,89 @@
+category,detail,dst_ip,dst_port,flow_id,ground_truth_attack_type,ground_truth_label,rule,severity,src_ip,timestamp
+port_scan,15 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,6341,7c615fa5,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:42.100000
+port_scan,16 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,9203,dfc582ee,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:42.250000
+port_scan,17 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,1930,00408f9a,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:42.400000
+port_scan,18 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,4289,c1a85939,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:42.550000
+port_scan,19 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,4265,6442c979,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:42.700000
+port_scan,20 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,7312,d56da289,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:42.850000
+port_scan,21 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,3516,d3365551,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:43
+port_scan,22 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,4679,2a5d1dec,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:43.150000
+port_scan,23 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,8048,921cd359,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:43.300000
+port_scan,24 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,3280,0a691778,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:43.450000
+port_scan,25 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,2010,f5f495b3,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:43.600000
+port_scan,26 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,2224,ca55da5b,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:43.750000
+port_scan,27 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,1214,0eff5105,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:43.900000
+ddos,30 connections to 10.20.0.10 within 5.0s window,10.20.0.10,1214,0eff5105,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:43.900000
+port_scan,28 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,7407,5dda7dd9,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:44.050000
+ddos,31 connections to 10.20.0.10 within 5.0s window,10.20.0.10,7407,5dda7dd9,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:44.050000
+port_scan,29 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,2829,1805532e,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:44.200000
+ddos,32 connections to 10.20.0.10 within 5.0s window,10.20.0.10,2829,1805532e,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:44.200000
+port_scan,30 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,7293,8af96e6a,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:44.350000
+ddos,33 connections to 10.20.0.10 within 5.0s window,10.20.0.10,7293,8af96e6a,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:44.350000
+port_scan,31 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,1439,d3b222a0,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:44.500000
+ddos,34 connections to 10.20.0.10 within 5.0s window,10.20.0.10,1439,d3b222a0,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:44.500000
+ddos,35 connections to 10.20.0.10 within 5.0s window,10.20.0.10,5432,311ac4be,,normal,ANOMALY-DDOS-001,critical,41.203.8.24,2026-03-02T09:01:44.508433
+port_scan,32 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,5237,e1c69a78,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:44.650000
+ddos,36 connections to 10.20.0.10 within 5.0s window,10.20.0.10,5237,e1c69a78,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:44.650000
+port_scan,33 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,5693,20302782,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:44.800000
+ddos,37 connections to 10.20.0.10 within 5.0s window,10.20.0.10,5693,20302782,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:44.800000
+port_scan,34 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,1064,1750434d,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:44.950000
+ddos,38 connections to 10.20.0.10 within 5.0s window,10.20.0.10,1064,1750434d,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:44.950000
+port_scan,34 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,9012,c16b326c,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:45.100000
+ddos,37 connections to 10.20.0.10 within 5.0s window,10.20.0.10,9012,c16b326c,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:45.100000
+port_scan,34 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,8883,1d85f0d6,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:45.250000
+ddos,37 connections to 10.20.0.10 within 5.0s window,10.20.0.10,8883,1d85f0d6,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:45.250000
+port_scan,34 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,4758,d87054ea,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:45.400000
+ddos,37 connections to 10.20.0.10 within 5.0s window,10.20.0.10,4758,d87054ea,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:45.400000
+port_scan,34 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,4915,8e97f2cc,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:45.550000
+ddos,37 connections to 10.20.0.10 within 5.0s window,10.20.0.10,4915,8e97f2cc,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:45.550000
+port_scan,34 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,2581,7a41109c,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:45.700000
+ddos,36 connections to 10.20.0.10 within 5.0s window,10.20.0.10,2581,7a41109c,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:45.700000
+port_scan,34 distinct ports from 185.220.101.7 within 5.0s window,10.20.0.10,2853,fd34242f,port_scan,attack,ANOMALY-PORTSCAN-001,medium,185.220.101.7,2026-03-02T09:01:45.850000
+ddos,36 connections to 10.20.0.10 within 5.0s window,10.20.0.10,2853,fd34242f,port_scan,attack,ANOMALY-DDOS-001,critical,185.220.101.7,2026-03-02T09:01:45.850000
+brute_force,8 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,588adefb,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:08.400000
+brute_force,9 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,28ad71ad,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:09.600000
+brute_force,10 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,891d5ca5,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:10.800000
+brute_force,11 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,1434fadd,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:12
+brute_force,12 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,9eff786e,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:13.200000
+brute_force,13 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,a915cfcb,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:14.400000
+brute_force,14 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,e41e5839,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:15.600000
+brute_force,15 SSH connection attempts from 193.106.191.44 within 20.0s window,10.20.0.10,22,a0cac70a,brute_force,attack,ANOMALY-BRUTEFORCE-001,high,193.106.191.44,2026-03-02T09:05:16.800000
+sql_injection,payload matched known SQLi pattern: 'admin'--',10.20.0.10,443,9f143bf0,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:20
+sql_injection,payload matched known SQLi pattern: 'OR 1=1',10.20.0.10,443,c8f9619d,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:24
+sql_injection,payload matched known SQLi pattern: 'UNION SELECT',10.20.0.10,443,e66326b7,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:28
+sql_injection,payload matched known SQLi pattern: '' OR '1'='1',10.20.0.10,443,2e89c688,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:32
+sql_injection,payload matched known SQLi pattern: 'OR 1=1',10.20.0.10,443,f4b6deaa,sql_injection,attack,SIGNATURE-SQLI-001,high,41.190.3.201,2026-03-02T09:08:36
+ddos,30 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,69c4f229,ddos,attack,ANOMALY-DDOS-001,critical,91.156.229.132,2026-03-02T09:10:51.350000
+ddos,31 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,5cd5d6d0,ddos,attack,ANOMALY-DDOS-001,critical,91.239.157.82,2026-03-02T09:10:51.400000
+ddos,32 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,329e69d2,ddos,attack,ANOMALY-DDOS-001,critical,91.254.158.190,2026-03-02T09:10:51.450000
+ddos,33 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,6e7c3bd1,ddos,attack,ANOMALY-DDOS-001,critical,91.152.87.130,2026-03-02T09:10:51.500000
+ddos,33 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,d33528e8,ddos,attack,ANOMALY-DDOS-001,critical,91.137.126.182,2026-03-02T09:10:51.550000
+ddos,34 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,415f8b9f,ddos,attack,ANOMALY-DDOS-001,critical,91.122.209.5,2026-03-02T09:10:51.600000
+ddos,35 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,5544a16d,ddos,attack,ANOMALY-DDOS-001,critical,91.173.29.251,2026-03-02T09:10:51.650000
+ddos,36 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,71c92221,ddos,attack,ANOMALY-DDOS-001,critical,91.79.204.231,2026-03-02T09:10:51.700000
+ddos,37 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,ed2929bb,ddos,attack,ANOMALY-DDOS-001,critical,91.7.153.122,2026-03-02T09:10:51.750000
+ddos,38 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,54409be7,ddos,attack,ANOMALY-DDOS-001,critical,91.148.59.185,2026-03-02T09:10:51.800000
+ddos,39 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,98be7acc,ddos,attack,ANOMALY-DDOS-001,critical,91.123.44.135,2026-03-02T09:10:51.850000
+ddos,40 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,4bc989b5,ddos,attack,ANOMALY-DDOS-001,critical,91.199.216.98,2026-03-02T09:10:51.900000
+ddos,41 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,eff353eb,ddos,attack,ANOMALY-DDOS-001,critical,91.9.147.243,2026-03-02T09:10:51.950000
+ddos,42 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,cf9133b2,ddos,attack,ANOMALY-DDOS-001,critical,91.49.5.113,2026-03-02T09:10:52
+ddos,43 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,7d3a5f83,ddos,attack,ANOMALY-DDOS-001,critical,91.39.106.177,2026-03-02T09:10:52.050000
+ddos,44 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,359b60f2,ddos,attack,ANOMALY-DDOS-001,critical,91.129.199.157,2026-03-02T09:10:52.100000
+ddos,45 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,a910f6c8,ddos,attack,ANOMALY-DDOS-001,critical,91.224.218.189,2026-03-02T09:10:52.150000
+ddos,46 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,f2baa992,ddos,attack,ANOMALY-DDOS-001,critical,91.181.36.133,2026-03-02T09:10:52.200000
+ddos,47 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,73e26f4a,ddos,attack,ANOMALY-DDOS-001,critical,91.84.170.123,2026-03-02T09:10:52.250000
+ddos,48 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,b693e659,ddos,attack,ANOMALY-DDOS-001,critical,91.81.245.45,2026-03-02T09:10:52.300000
+ddos,49 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,12dd19c2,ddos,attack,ANOMALY-DDOS-001,critical,91.88.140.91,2026-03-02T09:10:52.350000
+ddos,50 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,26f4c8d4,ddos,attack,ANOMALY-DDOS-001,critical,91.157.124.50,2026-03-02T09:10:52.400000
+ddos,51 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,077dcbf2,ddos,attack,ANOMALY-DDOS-001,critical,91.72.143.77,2026-03-02T09:10:52.450000
+ddos,52 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,6762b16a,ddos,attack,ANOMALY-DDOS-001,critical,91.198.74.181,2026-03-02T09:10:52.500000
+ddos,53 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,41a52749,ddos,attack,ANOMALY-DDOS-001,critical,91.82.123.90,2026-03-02T09:10:52.550000
+ddos,54 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,4008f15e,ddos,attack,ANOMALY-DDOS-001,critical,91.74.32.147,2026-03-02T09:10:52.600000
+ddos,55 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,e56e3c76,ddos,attack,ANOMALY-DDOS-001,critical,91.98.230.251,2026-03-02T09:10:52.650000
+ddos,56 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,4049637d,ddos,attack,ANOMALY-DDOS-001,critical,91.245.198.206,2026-03-02T09:10:52.700000
+ddos,57 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,dc09acf8,ddos,attack,ANOMALY-DDOS-001,critical,91.11.74.245,2026-03-02T09:10:52.750000
+ddos,58 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,421f5891,ddos,attack,ANOMALY-DDOS-001,critical,91.89.237.114,2026-03-02T09:10:52.800000
+ddos,59 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,1464b9d2,ddos,attack,ANOMALY-DDOS-001,critical,91.192.123.55,2026-03-02T09:10:52.850000
+ddos,60 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,bd645404,ddos,attack,ANOMALY-DDOS-001,critical,91.70.239.144,2026-03-02T09:10:52.900000
+ddos,61 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,b236eab5,ddos,attack,ANOMALY-DDOS-001,critical,91.36.28.158,2026-03-02T09:10:52.950000
+ddos,62 connections to 10.20.0.10 within 5.0s window,10.20.0.10,443,fea8f6f0,,normal,ANOMALY-DDOS-001,critical,41.203.164.29,2026-03-02T09:10:53.445884
