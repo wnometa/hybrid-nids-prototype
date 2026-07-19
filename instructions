@@ -1,0 +1,29 @@
+# Hybrid Network Intrusion Detection System (NIDS) Prototype by Wilson C. Nometa
+
+A functional, signature-based and hybrid Network Intrusion Detection System (NIDS) prototype built in Python using Scapy. This security tool is designed to ingest live network packet data, parse protocols, flag security anomalies against custom rulesets, and calculate real-time performance metrics (throughput and tail latency profiles).
+
+## 🚀 Key Features
+* **Live & Simulated Ingestion:** Captures active traffic across local wireless interfaces or processes synthetic network traffic datasets.
+* **Custom Signature Engine:** Leverages modular rule matching to detect network anomalies, mapping metrics instantly into alert logs.
+* **Performance Profiling:** Tracks system constraints under load, computing median processing latency, $p_{95}$ tail latency, and overall packet throughput flows per second.
+* **Local Discovery Mapping:** Features an integrated ARP-based network scanner to identify device signatures within target subnets.
+
+---
+
+## 🛠️ System Prerequisites & Interface Configuration
+
+Because this tool interacts directly with your machine's physical network adapter to capture raw Layer 2/Layer 3 frames, it requires specific environment adjustments:
+
+1. **Administrative Privileges:** Interface sniffing commands must be executed using `sudo` to bypass operating system security gatekeepers.
+2. **Access Point (AP) Isolation Note:** If running the network scanner on a network with AP/Client Isolation enabled (common on mobile hotspots or residential broadband routers), your scanner will only surface your own machine and the default gateway (`192.168.0.1`). 
+
+---
+
+## 💻 Installation & Environment Setup
+
+Follow these steps directly inside your Mac terminal to set up the runtime environment:
+
+### 1. Clone and Navigate to the Repository
+```bash
+git clone <your-repository-url>
+cd nids_prototype_source_code
